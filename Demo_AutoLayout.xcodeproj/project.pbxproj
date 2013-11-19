@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BED20B43183914CF001874AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED20B42183914CF001874AC /* Foundation.framework */; };
+		BED20B45183914CF001874AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED20B44183914CF001874AC /* CoreGraphics.framework */; };
+		BED20B47183914CF001874AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED20B46183914CF001874AC /* UIKit.framework */; };
+		BED20B4D183914CF001874AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BED20B4B183914CF001874AC /* InfoPlist.strings */; };
+		BED20B4F183914CF001874AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BED20B4E183914CF001874AC /* main.m */; };
+		BED20B53183914CF001874AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BED20B52183914CF001874AC /* AppDelegate.m */; };
+		BED20B56183914CF001874AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED20B54183914CF001874AC /* Main.storyboard */; };
+		BED20B59183914CF001874AC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED20B58183914CF001874AC /* MasterViewController.m */; };
+		BED20B5C183914CF001874AC /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED20B5B183914CF001874AC /* DetailsViewController.m */; };
+		BED20B5E183914CF001874AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED20B5D183914CF001874AC /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BED20B3F183914CF001874AC /* Demo_AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED20B42183914CF001874AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BED20B44183914CF001874AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BED20B46183914CF001874AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BED20B4A183914CF001874AC /* Demo_AutoLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo_AutoLayout-Info.plist"; sourceTree = "<group>"; };
+		BED20B4C183914CF001874AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BED20B4E183914CF001874AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BED20B50183914CF001874AC /* Demo_AutoLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo_AutoLayout-Prefix.pch"; sourceTree = "<group>"; };
+		BED20B51183914CF001874AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BED20B52183914CF001874AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BED20B55183914CF001874AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BED20B57183914CF001874AC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BED20B58183914CF001874AC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BED20B5A183914CF001874AC /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		BED20B5B183914CF001874AC /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		BED20B5D183914CF001874AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BED20B64183914CF001874AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED20B3C183914CF001874AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED20B45183914CF001874AC /* CoreGraphics.framework in Frameworks */,
+				BED20B47183914CF001874AC /* UIKit.framework in Frameworks */,
+				BED20B43183914CF001874AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BED20B36183914CF001874AC = {
+			isa = PBXGroup;
+			children = (
+				BED20B48183914CF001874AC /* Demo_AutoLayout */,
+				BED20B41183914CF001874AC /* Frameworks */,
+				BED20B40183914CF001874AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BED20B40183914CF001874AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED20B3F183914CF001874AC /* Demo_AutoLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED20B41183914CF001874AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BED20B42183914CF001874AC /* Foundation.framework */,
+				BED20B44183914CF001874AC /* CoreGraphics.framework */,
+				BED20B46183914CF001874AC /* UIKit.framework */,
+				BED20B64183914CF001874AC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BED20B48183914CF001874AC /* Demo_AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BED20B51183914CF001874AC /* AppDelegate.h */,
+				BED20B52183914CF001874AC /* AppDelegate.m */,
+				BED20B54183914CF001874AC /* Main.storyboard */,
+				BED20B57183914CF001874AC /* MasterViewController.h */,
+				BED20B58183914CF001874AC /* MasterViewController.m */,
+				BED20B5A183914CF001874AC /* DetailsViewController.h */,
+				BED20B5B183914CF001874AC /* DetailsViewController.m */,
+				BED20B5D183914CF001874AC /* Images.xcassets */,
+				BED20B49183914CF001874AC /* Supporting Files */,
+			);
+			path = Demo_AutoLayout;
+			sourceTree = "<group>";
+		};
+		BED20B49183914CF001874AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BED20B4A183914CF001874AC /* Demo_AutoLayout-Info.plist */,
+				BED20B4B183914CF001874AC /* InfoPlist.strings */,
+				BED20B4E183914CF001874AC /* main.m */,
+				BED20B50183914CF001874AC /* Demo_AutoLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED20B3E183914CF001874AC /* Demo_AutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED20B74183914CF001874AC /* Build configuration list for PBXNativeTarget "Demo_AutoLayout" */;
+			buildPhases = (
+				BED20B3B183914CF001874AC /* Sources */,
+				BED20B3C183914CF001874AC /* Frameworks */,
+				BED20B3D183914CF001874AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo_AutoLayout;
+			productName = Demo_AutoLayout;
+			productReference = BED20B3F183914CF001874AC /* Demo_AutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BED20B37183914CF001874AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "William Remaerd";
+			};
+			buildConfigurationList = BED20B3A183914CF001874AC /* Build configuration list for PBXProject "Demo_AutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BED20B36183914CF001874AC;
+			productRefGroup = BED20B40183914CF001874AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED20B3E183914CF001874AC /* Demo_AutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BED20B3D183914CF001874AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED20B5E183914CF001874AC /* Images.xcassets in Resources */,
+				BED20B4D183914CF001874AC /* InfoPlist.strings in Resources */,
+				BED20B56183914CF001874AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED20B3B183914CF001874AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED20B53183914CF001874AC /* AppDelegate.m in Sources */,
+				BED20B59183914CF001874AC /* MasterViewController.m in Sources */,
+				BED20B4F183914CF001874AC /* main.m in Sources */,
+				BED20B5C183914CF001874AC /* DetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BED20B4B183914CF001874AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED20B4C183914CF001874AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BED20B54183914CF001874AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED20B55183914CF001874AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BED20B72183914CF001874AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BED20B73183914CF001874AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BED20B75183914CF001874AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_AutoLayout/Demo_AutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "Demo_AutoLayout/Demo_AutoLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BED20B76183914CF001874AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_AutoLayout/Demo_AutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "Demo_AutoLayout/Demo_AutoLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BED20B3A183914CF001874AC /* Build configuration list for PBXProject "Demo_AutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED20B72183914CF001874AC /* Debug */,
+				BED20B73183914CF001874AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED20B74183914CF001874AC /* Build configuration list for PBXNativeTarget "Demo_AutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED20B75183914CF001874AC /* Debug */,
+				BED20B76183914CF001874AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BED20B37183914CF001874AC /* Project object */;
+}
