@@ -12,6 +12,11 @@
 
 @property(nonatomic, weak)IBOutlet UILabel *labelTitle;
 
+@property(nonatomic, weak)IBOutlet UILabel *labelNotes;
+@property(nonatomic, weak)IBOutlet UILabel *labelRating;
+@property(nonatomic, weak)IBOutlet UILabel *labelAlbum;
+@property(nonatomic, weak)IBOutlet UILabel *labelRelease;
+@property(nonatomic, weak)IBOutlet UILabel *labelRecord;
 
 @property(nonatomic, weak)IBOutlet UIButton *buttonTitle;
 @property(nonatomic, weak)IBOutlet UIButton *buttonButton;
@@ -86,14 +91,21 @@
     } else if (sender == self.buttonAttrs) {
         
         static NSUInteger index = 0;
-        static NSArray *texts;
-        if (texts == nil){
-            texts = @[ @"T",
-                       @"Veeeeeeeeeeeeeery Looooooooooooong Tiiiiiiiiiiitle",
-                       @"Title"
+        static NSArray *texts0 = nil, *texts1 = nil;
+        if (texts0 == nil) {
+            texts0 = @[ @"N",
+                       @"Veeeeeeeeeeeeeery Looooooooooooong Notes",
+                       @"Notes"
                        ];
         }
-        self.labelTitle.text = texts[index % 3];
+        if (texts1 == nil) {
+            texts1 = @[ @"Veeeeeeeeeeeeeery Looooooooooooong Year",
+                        @"Year",
+                        @"Y"
+                        ];
+        }
+        self.labelNotes.text = texts0[index % 3];
+        self.labelRelease.text = texts1[index % 3];
 
         index++;
         
