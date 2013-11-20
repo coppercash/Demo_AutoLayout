@@ -1,7 +1,7 @@
 Demo_AutoLayout
 ===============
 
-## Demo using Auto Layout in some circumstances.
+Demo using Auto Layout in some circumstances.
 
 ### Case I - Buttons with multileve priorities
 
